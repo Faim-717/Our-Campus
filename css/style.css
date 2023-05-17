@@ -15,7 +15,8 @@
     background-color: #264653;
 }
 .txt-color{
-    color: #E76F51;
+    
+    color:#E76F51;
 }
 .img-fluid{
     width:100%;
@@ -26,7 +27,7 @@
 }
 /* servicing part */
 .bg-img {
-    background-image: url("motorbike-mot-2.jpg");
+    background-image: url("bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -44,4 +45,8 @@
 }
 .happy{
     color: white;
+}
+
+.letter{
+   background-color:  #E76F51 ;
 }
