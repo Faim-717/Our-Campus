@@ -50,3 +50,28 @@
 .letter{
    background-color:  #E76F51 ;
 }
+
+
+
+
+/* ---------Sign Up Form-------- */
+
+.container{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+.form-group{
+    margin-bottom: 50px;
+}
+.form-group label{
+    font-weight: bold;
+}
+.btn-signup{
+    width: 100%;
+}
+
+
+
+
+
