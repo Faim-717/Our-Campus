@@ -1,4 +1,8 @@
 /* ---------body style section-------- */
+
+.text-color{
+    color: black;
+}
 .btn-color{
     background-color: #581845  !important;
 }

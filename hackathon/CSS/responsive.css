@@ -1,0 +1,594 @@
+@charset "UTF-8";
+/* CSS Document */
+@media only screen and (max-width: 1350px)
+{
+
+
+.new.ed2023 p.text-footer a
+{
+display:inline-block;
+margin-top:10px;
+margin-bottom:10px;
+}
+}
+@media only screen and (max-width: 1200px)
+{
+
+	.ico-sinistra-head {
+		width: 34%;
+	}
+
+	.ico-destra-head {
+		width: 32%;
+	}
+
+	.main-image {
+    	position: relative;
+    	top: -60px;
+    	width: 38%;
+	}
+
+	#first {
+    	padding: 200px 0;
+	}
+
+	.col2.custom-col-2 {
+		padding-left: 145px !important;
+	}
+
+	.center-button-wrap {
+		margin-top: 80px;
+	}
+
+	.custom-col-2-challange-2 {
+    	width: 50% !important;
+	}
+
+	.new.ed2023 .menu li a,.new.ed2023 .menu li a.button
+	{
+		font-size:18px;	
+	}
+	.new.ed2023 .menu li a.button
+	{
+		line-height:38px !important;
+	}
+	.new.ed2023 .logo
+	{
+		width:200px;
+	}
+}
+
+@media only screen and (max-width: 1023px)
+{
+.new.ed2023 .menu {
+    overflow: hidden;
+    height: 0;
+    width: 100vw;
+    left: 50%;
+	transform:translateX(-50%);
+	top:0;
+	margin:0;
+	position: fixed;
+  z-index:2;
+   transition: all .25s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+-webkit-transition: all .25s ease-in-out;
+box-sizing:border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+transition: all .25s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+-webkit-transition: all .25s ease-in-out;
+background-color:#f3f3f3;
+}
+
+.new.ed2023 #myDIV
+{
+position:static;
+}
+#menuButton
+{
+width:36px;
+height:36px;
+background-image:url("../img/open_menuMobile.png");
+background-repeat:no-repeat;
+background-position:center center;
+cursor:pointer;
+}
+
+#menuButton.on
+{
+background-image:url("../img/close_menuMobile.png");
+}
+
+.new.ed2023 .menu ul li
+{
+padding-left:6%;
+padding-right:6%;
+margin-left:0 !important;
+margin-right:0 !important;
+margin-top:50px;
+margin-bottom:50px;
+display:block !important;
+text-align:center;
+}
+
+.new.ed2023 .menu.on
+{
+height:100vh;
+padding-top: 150px;
+}
+.new.ed2023 .header li
+{
+padding-left:6%;
+padding-right:6%;
+display:block;
+margin-left:0;
+float:none;
+text-align:center;
+margin-bottom:30px;
+}
+
+.three {
+	padding: 100px 0;
+}
+
+#four {
+	padding-top: 140px;
+}
+
+.challange-container .slick-prev, .challange-container .slick-next {
+    top: 99.8999%;
+    margin-top: -0.1px;
+}
+
+.back-image {
+	min-height: 350px;
+	width: 100%;
+}
+
+.custom-col-2-challange, .custom-col-2-challange-2 {
+	width: 100% !important;
+}
+
+#two .tabella.riga .col2 {
+	padding: 0;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+
+h2 {
+	font-size: 45px;
+    line-height: 48px;
+}
+
+#page .three h2 {
+	line-height: 65px;
+	margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#first {
+    padding: 150px 0;
+}
+
+#first p {
+    font-size: 45px;
+    line-height: 62px; 
+    max-width: 510px;
+}
+
+.grid-cell,.new.ed2023 .grid-cell {
+	flex-basis: 33%;
+}
+
+.col2.custom-col {
+	width: 100% !important;
+}
+
+.col2.custom-col-2 {
+	padding-left: 15px !important;
+    padding-right: 15px !important;
+	width: 100% !important;
+}
+
+.ico-sinistra-head {
+	left: 34%;
+}
+
+.linea {
+    position: absolute;
+    left: 130px;
+    bottom: -110px;
+    transform: rotate(90deg);
+}
+
+#five .col3 {
+	transition: none;
+	opacity: 1;
+	top: -50px;
+	
+}
+
+#five .riga.timeline .col3 {
+	border-left: 5px solid #d2d1d6;
+}
+
+.linea-grigia {
+	display: none;
+}
+
+
+.tabella, .cella {
+	display: block;
+}
+p.text-footer {
+  font-size: 15px;
+}
+}
+@media only screen and (max-width: 767px) 
+{
+.new.ed2023 .footer-container
+{
+display:block;
+}
+.new.ed2023 .wrap_loghi_footer {
+  justify-content: center;
+}
+.new.ed2023 .footer-container p.title_label
+{
+text-align:center;
+}
+.new.ed2023 p.text-footer {
+  max-width: 100%;
+  text-align: center;
+margin-top:30px;
+}
+
+.new.ed2023 .wrap_loghi_footer {
+  flex-wrap:wrap;
+}	
+p.text-footer span
+{
+display:block;
+margin-top:10px;
+}
+
+.new .header
+{
+height:70px;
+}
+.three {
+	padding: 100px 0 50px 0;
+}
+
+.challange-container .slick-prev, .challange-container .slick-next {
+    top: -7.1%;
+}
+
+#three-half {
+	padding-top: 100px;
+}
+.back-image {
+    min-height: 250px;
+}
+
+.space-wrap-challange-text {
+    padding: 15px 15px 10px 15px;
+}
+
+h1
+{
+    font-size: 30px;
+	line-height: 40px;
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 38px;
+}
+
+.freccia-wrap img {
+	width: 50px;
+	margin-top: 50px;
+}
+
+.button, a.button {
+	font-size: 16px;
+	min-width: 100px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.header li {
+    float: left;
+    padding: 0px 5px;
+}
+
+.header .logo,.new.ed2023 .logo {
+	width: 180px;
+}
+
+.main-content-visore {
+	padding: 160px 0 60px 0;
+
+}
+
+.ico-sinistra-head {
+    left: -10%;
+    top: 15%;
+    z-index: -1;
+}
+.new.ed2023 .ico-sinistra-head
+{
+top:5%;
+}
+.new.ed2023 .main-content-visore {
+  padding: 160px 0 150px 0;
+}
+.header {
+	padding: 20px 0;
+}
+
+#first p {
+    font-size: 25px;
+    line-height: 42px;
+    max-width: 310px;
+}
+
+#first {
+    padding: 100px 0;
+}
+
+#two {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#four {
+	padding-top: 100px;
+}
+
+#two p, #four p {
+	font-size: 18px;
+    line-height: 26px;
+}
+
+#page #two p.azz, #page #four p.azz {
+	font-size: 22px;
+}
+
+.grid-cell,.new.ed2023 .grid-cell {
+	flex-basis: 50%;
+}
+
+#page .three h2 {
+	line-height: 50px;
+}
+
+#page .three p {
+    font-size: 20px;
+    line-height: 32px; 
+ }
+
+ #page .title-partecipa, #page .challenge-title {
+ 	font-size: 31px;
+ }
+
+ #five {
+ 	padding-top: 50px;
+ 	padding-bottom: 70px;
+ }
+
+ .cont-timeline {
+ 	padding: 0 20px 0 20px;
+ }
+
+ .slick-prev, .slick-next {
+ 	padding: 17px 30px;
+ 	width: 80px;
+ }
+
+ .slick-prev {
+ 	transform: translate(50px, 0px);
+ }
+
+ .slick-next {
+ 	transform: translate(130px, 0px);
+}
+h3 {
+	font-size: 20px;
+}
+
+#faq-section {
+	padding-bottom: 72px;
+}
+
+}
+
+@media only screen and (max-width: 699px)
+{
+
+
+}
+
+@media only screen and (max-width: 480px)
+{
+
+#page .challange-text p {
+	font-size: 15px;
+}
+
+.challange-container .slick-prev, .challange-container .slick-next {
+    top: -7.59%;
+}
+
+h1
+{
+	font-size: 30px;
+	line-height:34px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+#page p
+{
+	font-size:16px;
+	line-height:24px;
+	margin: 15px 0;
+}
+
+.header .logo,.new.ed2023 .logo {
+    width: 140px;
+}
+
+.button, a.button {
+    font-size: 13px;   
+    min-width: 80px;
+    height: 30px;
+    line-height: 28px;
+}
+.new.ed2021 .menu li a.button
+{
+line-height: 28px !important;
+}
+.new.ed2023 .menu li a.button
+{
+height:40px;
+}
+.ico-destra-head {
+	left: 32%
+}
+
+.grid-icons {
+	margin-top: 30px;
+}
+
+#first p {
+    font-size: 25px;
+    max-width: 220px;
+    line-height: 30px;
+}
+
+#first {
+    padding: 80px 0;
+}
+
+#page #two p.azz, #page #four p.azz {
+    font-size: 20px;
+}
+
+#two, #four {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.three {
+	padding: 60px 0;
+}
+
+#page .three h2 {
+	font-size: 25px;
+	line-height: 40px;
+}
+
+#page p.small {
+    font-size: 19px;
+}
+
+#page .title-partecipa, #page .challenge-title {
+	font-size: 25px !important;
+}
+
+.grid-cell span {
+	font-size: 20px;
+}
+
+#three-half .focus {
+	width: 100%;
+}
+
+.grid-cell,.new.ed2023 .grid-cell {
+	flex-basis: 100%;
+}
+
+#page p.title-timeline {
+	font-size: 26px !important
+}
+
+#page .text-timeline p {
+	font-size: 17px;
+}
+
+.programma-container, .faq-container {
+	margin-top: 30px;
+}
+
+#five {
+	padding-top: 45px;
+	padding-bottom: 70px;
+}
+
+#speaker-section {
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+#partners-section {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+#page p.title-programma {
+	font-size: 21px;
+	line-height: 30px;
+}
+
+#faq-section {
+    padding-bottom: 70px;
+}
+
+h3 {
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.center-button, a.center-button {
+	min-width: 200px;
+	font-size: 18px; 
+}
+
+#overlay {
+	width: 85%;
+	padding: 10px 20px;
+}
+
+p.text-footer {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+#page .title-promoter {
+	font-size: 14px;
+}
+
+#page p.data-programma {
+	font-size: 17px;
+}
+
+.programma-container {
+    margin-bottom: 140px;
+}
+
+.riga.timeline-2 {
+	margin-bottom: 0;
+}
+
+}
