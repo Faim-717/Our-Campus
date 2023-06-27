@@ -147,6 +147,11 @@
              {
                  outline: none;
              }
+             .display_name{
+                color: white;
+                text-align: left;
+                margin-right: 70%;
+             }
             .display_mail{
               color: white;
               text-align: left;
@@ -160,16 +165,18 @@
         </style>
     </head>
     <body>
-        <form action="" class="signup">
+        <form action="#" class="signup">
+
             <header><img src="images/login.png"></header>
+            <div class="display_name">Name</div>
+            <div class="field"><span class="fa fa-user"></span><input type="text" id="Name" placeholder="your name"></div>
             <div class="display_mail">Email address</div>
-            <div class="field"><span class="fa fa-user"></span><input type="text" placeholder="example@gmail.com"></div>
+            <div class="field"><span class="fa fa-user"></span><input type="text" id="Email" placeholder="example@gmail.com"></div>
             <div class="display_cpass">Create a password</div>
-            <div class="field"><span class="fa fa-lock"></span><input type="password" placeholder="must be 8 characters"></div>
-            <div class="display_cpass">Confirm password</div>
-            <div class="field"><span class="fa fa-lock"></span><input type="password" placeholder="confirm your password"></div>
+            <div class="field"><span class="fa fa-lock"></span><input type="password" id="Psw" placeholder="must be 8 characters"></div>
+        
             
-            <input type="submit" class="submit" value="signup">
+            <input type="button" id="save_btn" class="submit" value="signup" onclick="savedata()">
             <span class="signup-form-copy">Or signup with</span>
             <div class="social-icons">
                 <div class="social-icon instagram"><span class="fa fa-instagram"></span></div>
@@ -180,5 +187,8 @@
             </div>
             <span class="signup-form-copy">Already have an account?<a href="http://127.0.0.1:5500/login.html" class="signup-form_sign-up">Login</a></span>
         </form>
+
+        <script src="/js/form.js"></script>
+        
     </body>
 </html>

@@ -152,10 +152,17 @@
     <body>
         <form action="" class="login">
             <header><img src="images/login.png"></header>
-            <div class="field"><span class="fa fa-user"></span><input type="text" placeholder="Email or Username"></div>
-            <div class="field"><span class="fa fa-lock"></span><input type="password" placeholder="Password"></div>
+            <div class="field">
+                <span class="fa fa-user"></span>
+                <input type="text" id="username" for="username" name="username" placeholder="Email or Username">
+            </div>
+            <div class="field">
+                <span class="fa fa-lock"></span>
+                <input type="password" id="password" name="password" placeholder="Password">
+            </div>
+
             <div class="forgot-password"><a href="">Forgot password?</a></div>
-            <input type="submit" class="submit" value="LOGIN">
+            <input type="button" class="submit" value="LOGIN" onclick="btn_login()">
             <span class="login-form-copy">Or Login with</span>
             <div class="social-icons">
                 <div class="social-icon instagram"><span class="fa fa-instagram"></span></div>
@@ -166,5 +173,7 @@
             </div>
             <span class="login-form-copy">Don't have an account?<a href="http://127.0.0.1:5500/signup.html" class="login-form_sign-up">Sign up</a></span>
         </form>
+
+        <script src="/js/login.js"></script>
     </body>
 </html>
